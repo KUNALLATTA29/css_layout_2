@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>css_layout_2</title>
+  <style>
+    *{
+      padding: 0px;
+      margin: 0px;
+      box-sizing: border-box;
+    }
+    .cont{
+      width: 90%;
+      height: 90vh;
+      border: 3px solid black;
+      margin-left: 70px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: aqua;
+
+    }
+    .header{
+      width: 95%;
+      background-color: aquamarine;
+      text-align: center;
+      margin: 1%;
+      height: 10%;
+      padding-top: 15px;
+    }
+    .main{
+      width: 95%;
+      height: 80%;
+      margin: 3px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .d1{
+      width: 29%;
+      height: 100%;
+      background-color: bisque;
+    }
+    .d2{
+      width: 69%;
+      height: 100%;
+      background-color:cadetblue ;
+      display: flex;
+      align-items: end;
+      justify-content: space-around;
+    }
+    .a1{
+      width: 20%;
+      height: 30%;
+      background-color: orange;
+      margin: 2%;
+    }
+    .a2{
+      width: 20%;
+      height: 30%;
+      background-color: orange;
+      margin: 2%;
+    }
+    .a3{
+      width: 20%;
+      height: 30%;
+      background-color: orange;
+      margin: 2%;
+    }
+    .footer{
+      height: 10%;
+      width: 95%;
+      background-color: blueviolet;
+      text-align: center;
+      margin: 1%;
+      padding-top: 15px;
+    }
+    
+  </style>
+</head>
+<body>
+  <div class="cont">
+    <div class="header">
+      <h2>Header</h2>
+    </div>
+    <div class="main">
+      <div class="d1"></div>
+      <div class="d2">
+        <div class="a1"></div>
+        <div class="a2"></div>
+        <div class="a3"></div>
+      </div>
+    </div>
+    <div class="footer">
+      <h2>Footer</h2>
+    </div>
+  </div>
+  
+</body>
+</html>
